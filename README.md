@@ -142,8 +142,9 @@ HF_MAX_NEW_TOKENS = 256
 ---
 
 ## Training code & reproducibility
-- Training notebook/script is included in this repo.  
-- GitHub (recommended to pin): add a release tag (e.g., `v1.0-medmcqa`) and record the commit SHA used for training. Link both from your HF model cards.
+- **GitHub repo:** https://github.com/PranavKumarAV/MedMCQA-Chatbot-Finetune-Medical-AI
+- **Release (code snapshot):** https://github.com/PranavKumarAV/MedMCQA-Chatbot-Finetune-Medical-AI/releases/tag/v1.0-medmcqa
+- **Commit (tag target):** `<commit-sha>`
 
 ---
 
