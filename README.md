@@ -15,6 +15,10 @@ This app **auto‑downloads** the base model + **LoRA** adapter from Hugging Fac
 
 **Subjects used:** **Biochemistry**, **Physiology** (subset to fit T4 16 GB; stratified 70/30 split on `subject_name`).
 
+## Adapters on Hugging Face
+- Qwen adapter: https://huggingface.co/Pk3112/medmcqa-lora-qwen2.5-7b-instruct
+- Llama adapter: https://huggingface.co/Pk3112/medmcqa-lora-llama3-8b-instruct
+
 ---
 
 ## Requirements (minimal)
@@ -159,6 +163,12 @@ This is an educational tutor. Do **not** use for diagnosis or treatment. Always 
 
 ## License
 
-- App code: your repository license.  
-- **Adapters:** hosted on HF under their model cards.  
-- **Base models:** subject to the original licenses (Qwen: Apache‑2.0; Llama‑3: Meta Llama 3 Community License).
+- **App code (this repo):** Apache-2.0 © 2025 Pranav Kumar A V. See [LICENSE](./LICENSE). See also [NOTICE](./NOTICE) for attributions.
+- **Adapters (on Hugging Face):**
+  - `Pk3112/medmcqa-lora-qwen2.5-7b-instruct`: **Apache-2.0** (adapter weights only).
+  - `Pk3112/medmcqa-lora-llama3-8b-instruct`: **Other** — adapter weights only; use requires access to the base model under the **Meta Llama 3 Community License**.
+- **Base models (not included in this repo):**
+  - `Qwen/Qwen2.5-7B-Instruct` — Apache-2.0 (obtain from its HF page).
+  - `meta-llama/Meta-Llama-3-8B-Instruct` — Meta Llama 3 Community License (accept on its HF page).
+- **Dataset:** `openlifescienceai/medmcqa` — use under the license stated on its dataset page.
+- **Safety:** Educational use only. Not medical advice.
