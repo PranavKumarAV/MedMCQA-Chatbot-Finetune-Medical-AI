@@ -1,0 +1,23 @@
+NOTICE
+
+This product includes software developed by Pranav Kumar A V © 2025
+and makes use of third-party libraries and models:
+
+- Transformers (Hugging Face)
+- PEFT (Hugging Face)
+- Unsloth
+- bitsandbytes
+- Streamlit
+- PyTorch
+
+Base models used at inference:
+- Qwen/Qwen2.5-7B-Instruct (Apache-2.0)
+- meta-llama/Meta-Llama-3-8B-Instruct (Meta Llama 3 Community License)
+
+Datasets:
+- openlifescienceai/medmcqa
+
+This project distributes *adapter weights* (PEFT/LoRA) separately from base weights.
+Use of the adapters together with the base models must comply with the corresponding
+base model licenses. This NOTICE is provided for attribution and does not grant rights
+beyond those included in the respective licenses.
