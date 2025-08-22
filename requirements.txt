@@ -1,2 +1,10 @@
+# Core app
 streamlit
-ollama
+
+# HF inference stack
+transformers
+peft
+huggingface_hub
+accelerate
+safetensors
+tokenizers
