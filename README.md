@@ -30,11 +30,11 @@ This app **auto‑downloads** the base model + **LoRA** adapter from Hugging Fac
 
 ## Model selection (accuracy vs latency)
 
-### Results (your measured runs)
-| Model | Internal val acc (%) | Original val acc (%) | TTFT (ms) | Gen time (ms) | In/Out tokens |
-|---|---:|---:|---:|---:|---:|
-| Llama‑3‑8B (LoRA) | 83.83 | 65.20 | 567 | 14874 | 148 / 80 |
-| Qwen2.5‑7B (LoRA) | 76.50 | 67.84 | 546 | 1623  | 81 / 15 |
+### Results
+| Model | Internal val acc (%) | Original val acc (%) | TTFT (ms) | Gen time (ms) | In/Out tokens | Finetune Time |
+|---|---:|---:|---:|---:|---:|---:|
+| Llama‑3‑8B (LoRA) | 83.83 | 65.20 | 567 | 14874 | 148 / 80 | 3h 53m |
+| Qwen2.5‑7B (LoRA) | 76.50 | 67.84 | 546 | 1623  | 81 / 15 | 3h 38m |
 
 **Interpretation (short):**
 - **External accuracy:** Qwen higher (67.84 % vs 65.20 %).  
